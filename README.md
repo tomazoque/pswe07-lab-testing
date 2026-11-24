@@ -115,3 +115,7 @@ Cada equipo reporta:
 - Mutation score final.
 - Qué mutantes quedaron y por qué.
 - Cuál propiedad fue la más valiosa.
+
+## Solución y resultados de la Parte 2
+
+La solución en [test/estudiante.test.js](test/estudiante.test.js) incluye ejemplos exactos y propiedades. El [informe de las fases A a D](SOLUCION_PARTE_2.md) documenta la preparación comprobada y el avance del mutation score: 36,67 % → 90,00 % → 93,33 %. Las 16 pruebas pasan y mantienen 100 % de cobertura.
