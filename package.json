@@ -1,0 +1,22 @@
+{
+  "name": "lab-testing",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "vitest run",
+    "coverage": "vitest run --coverage",
+    "mutation": "stryker run",
+    "demo:coverage": "vitest run -c vitest.demo-ia.config.js --coverage",
+    "demo:mutation:ia": "stryker run stryker.demo-ia.json",
+    "demo:test:pbt": "vitest run -c vitest.demo-pbt.config.js",
+    "demo:mutation:pbt": "stryker run stryker.demo-pbt.json"
+  },
+  "devDependencies": {
+    "@stryker-mutator/core": "^10.1.1",
+    "@stryker-mutator/vitest-runner": "^10.1.1",
+    "@vitest/coverage-v8": "^5.1.0",
+    "fast-check": "^4.10.2",
+    "vitest": "^5.1.0"
+  }
+}

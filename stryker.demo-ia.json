@@ -1,0 +1,1 @@
+{ "testRunner": "vitest", "mutate": ["demo/envio.js"], "reporters": ["clear-text", "html"], "htmlReporter": { "fileName": "reports/mutation/demo-ia.html" }, "coverageAnalysis": "perTest", "vitest": { "configFile": "vitest.demo-ia.config.js" } }
